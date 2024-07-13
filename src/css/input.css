@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen(lg) {
+  .bg-hero {
+    width: 1000px;
+    height: 300px;
+    left: 60%;
+    @apply absolute rounded-l-full top-72 bg-softBlue -z-10;
+  }
+
+  .bg-tabs {
+    width: 1000px;
+    height: 300px;
+    right: 120%;
+    @apply absolute rounded-r-full top-40 bg-softBlue -z-10;
+  }
+}
